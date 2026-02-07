@@ -76,13 +76,36 @@ This microservice provides a RESTful API for managing college courses. It suppor
 
 ## Screenshots
 
-- **Read All Courses (GET all)**  
-![Read (GET all)](doc_res/postman_GetAllCourses.png)
+Below are screenshots demonstrating successful and error CRUD operations in Postman:
 
 - **Create Course (POST)**  
-![Create (POST)](doc_res/postman_PostCourse.png)
+![Create (POST)](doc_res/01_postman_PostCourse.png)  
+<sub>File: doc_res/01_postman_PostCourse.png</sub>
 
-- **Update Course (PUT, error case)**  
-![Update (PUT, error case)](doc_res/postman_PutCourse_ERROR.png)
+- **Read All Courses (GET all)**  
+![Read (GET all)](doc_res/02_postman_GetAllCourses.png)  
+<sub>File: doc_res/02_postman_GetAllCourses.png</sub>
 
-<!-- Add more screenshots as needed for GET by id and DELETE if available -->
+- **Update Course (PUT, error 400 - validation)**  
+![Update (PUT, error 400)](doc_res/03_postman_PutCourse_ERROR_400.png)  
+<sub>File: doc_res/03_postman_PutCourse_ERROR_400.png</sub>
+
+- **Update Course (PUT, success)**  
+![Update (PUT, success)](doc_res/04_postman_PutCourse.png)  
+<sub>File: doc_res/04_postman_PutCourse.png</sub>
+
+- **Read Course by ID (GET by id, success)**  
+![Read (GET by id, success)](doc_res/05_postman_GetCourseById.png)  
+<sub>File: doc_res/05_postman_GetCourseById.png</sub>
+
+- **Read Course by ID (GET by id, error 404)**  
+![Read (GET by id, error 404)](doc_res/06_postman_GetCourseById_Error_404.png)  
+<sub>File: doc_res/06_postman_GetCourseById_Error_404.png</sub>
+
+- **Delete Course by ID (DELETE, success)**  
+![Delete (DELETE, success)](doc_res/07_postman_DeleteCourseById.png)  
+<sub>File: doc_res/07_postman_DeleteCourseById.png</sub>
+
+- **Read All Courses After Delete (GET all)**  
+![Read (GET all, after delete)](doc_res/08_postman_GetAllCourses_after_delete_course.png)  
+<sub>File: doc_res/08_postman_GetAllCourses_after_delete_course.png</sub>
